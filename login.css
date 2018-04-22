@@ -1,0 +1,181 @@
+.container-2{
+	width:1200px;
+	margin:0px auto;
+}
+.container-2>.main-w1200{
+	width:100%;
+}
+.container-2>.main-w1200>.img{
+	margin:15px 0;
+}
+.container-2 .common-fileds915 h1{
+	display:inline;
+	color:#737373;
+	font-size:25px;
+}
+.container-2 .common-fileds915 span{
+	font-size:18px;
+	float:right;
+}
+.container-2 .common-fileds915 span a{
+	text-decoration:none;
+	color:#009c4c;
+}
+.container-2 .common-fileds915 span a:hover{
+	text-decoration:underline;
+}
+
+.container-2 .login-fileds915{
+	width:100%;
+	min-height:500px;
+	margin-top:20px;
+	padding-bottom:60px;
+	box-shadow:0 0 30px rgba(141,141,141,0.5);
+}
+.container-2 .login-fileds915 .ad-item915{
+	overflow:hidden;
+	box-sizing:border-box;
+	width:100%;
+	min-height:412px;
+	padding:107px 50px 60px 50px;
+}
+.container-2 .login-fileds915 .ad-item915 .left_img{
+	width:50%;
+	vertical-align:middle;
+}
+.container-2 .login-fileds915 .ad-item915 .login-item915{
+	position:relative;
+	float:right;
+	box-sizing:border-box;
+	width:48%;
+	height:400px;
+	padding:47px 20px;
+	border:1px solid #f0f0f0;
+}
+.container-2 .login-fileds915 .ad-item915 .login-item915 input{
+	font-family:Arial, 'Microsoft YaHei';
+	color:#626262;
+	outline:none;
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+.container-2 .login-fileds915 .ad-item915 .login-item915 input.wid448{
+	display:block;
+	font-size:16px;
+	width:100%;
+	box-sizing:border-box;
+	margin-bottom:30px;
+	height:66px;
+	padding:20px;
+	line-height:20px;
+	border:1px solid #e2e6e4;
+}
+div.container-2 div.login-fileds915 div.ad-item915 div.login-item915 form p{
+	height:45px;
+	text-align:right;
+}
+div.container-2 div.login-fileds915 div.ad-item915 div.login-item915 form a{
+	text-decoration:none;
+	color:#737373;
+	/* float:right; */
+}
+div.container-2 div.login-fileds915 div.ad-item915 div.login-item915 form a:hover{
+	text-decoration:underline;
+}
+div.container-2 div.login-fileds915 div.ad-item915 div.login-item915 form .m-btn-main{
+	box-sizing:border-box;
+	padding-left:0px;
+	padding:0px;
+	font-size:25px;
+	width:486px;
+	height:66px;
+	line-height:66px;
+	text-align:center;
+	color:#fff;
+	border:none;
+	background-color:#009c4c;
+	display:inline-block;
+	cursor:pointer;
+	font-family:"Arial, 'Microsoft YaHei'";
+	margin-top:25px;
+}
+
+div.container-2 div.login-fileds915 div.common-foot{
+	clear:both;
+	padding-top:20px;
+	text-align:center;
+	border-top:1px solid #f0f0f0;
+}
+div.container-2 div.login-fileds915 div.common-foot p{
+	line-height:24px;
+	color:#626262;
+	font-size:16px;
+}
+/*注册页面中#register*/
+.tiaokuan input,.tiaokuan span{
+	float:left
+}
+.tiaokuan span{
+	display:inline-block;
+	margin-left:10px;
+}
+.tiaokuan span a{
+	color:#009c4c;
+}
+
+/*登录界面:用户名错误提示*/
+.user_err{
+	width: 258px;
+	height: 30px;
+	position: absolute;
+	top: 110px;
+	right: 46%;
+	display: inline-block;
+	line-height: 30px;
+	font-size: 14px;
+	color: red;
+	padding-left: 8px;
+}
+/*登录界面:密码名错误提示*/
+.upwd_err{
+	width: 258px;
+	height: 30px;
+	position:absolute;
+	top: 210px;
+	right: 46%;
+	display: inline-block;
+	line-height: 30px;
+	font-size: 14px;
+	color: red;
+	padding-left: 8px;
+}
+/*注册界面错误提示*/
+.register_err{
+	display:none;
+	width: 480px;
+	height: 30px;
+	position: relative;
+	top: 230px;
+	right: 421px;
+	line-height: 30px;
+	background: rgb(226,230,228);
+	font-size: 14px;
+	color: rgb(240,118,65);
+	padding-left: 8px;
+}
+/*添加图形验证码内容*/
+.ok{
+	color:green;
+}
+.err{
+	color:red;
+}
+/*验证码图片*/
+.yanzhengma{
+	cursor:pointer;
+	position:relative;
+	bottom:25px;
+}
+
+
