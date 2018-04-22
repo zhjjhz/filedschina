@@ -1,0 +1,356 @@
+/* 整体部分 */
+.container2{
+	width:100%;	
+	position:relative;
+	/*top:-40px;*/
+}
+.container2-inner{
+	width:1200px;
+	margin:0 auto;
+	background-color:#fff;
+	position:relative;
+}
+/* banner图部分 */
+.recipe_slider915{
+	position:relative;
+}
+.slider1{
+	width:100%;
+	height:430px;
+	overflow:hidden;
+	position:relative;
+}
+/* banner图大图部分 */
+.slider1 .slider_main{
+	width:999999px;
+	height:430px;
+	position:absolute;
+}
+.slider1 .slider_main .slide_panel{
+	float:left;
+}
+.slider1 .slider_nav{
+	position:absolute;
+	bottom:4px;
+	left:50%;
+	margin-left:-51px;
+}
+/* 小圆点部分 */
+.slider1 .slider_nav .slider-item{
+	width:10px;
+	height:10px;
+	display:inline-block;
+	border-radius:50%;
+	margin:0 5px;
+	cursor:pointer;
+	overflow:hidden;
+	background:rgba(0,0,0,0.3);
+}
+
+/* 左右大三箭头 */
+.slider_page .slider-pre,.slider_page .slider-next{
+	display:block;
+	width:49px;
+	height:85px;
+	line-height:85px;
+	text-align:center;
+	border-radius:6px;
+	background:rgba(0,0,0,0.3);
+	position:absolute;
+	top:50%;
+	margin-top:-43px;
+}
+.slider_page .slider-lf{
+	left:-60px;
+}
+.slider_page .slider-rt{
+	right:-60px;
+}
+.slider_page img{
+	vertical-align:middle;
+}
+/* 产品分类 */
+.product_slider915{
+	height:150px;
+	margin:24px auto;
+	position:relative;
+}
+.product_slider915 .product_overflow915{
+	height:150px;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+.product_slider915 .product_overflow915 .product_longBox915{
+	position:absolute;
+	width:9999999999px;
+}
+.product_slider915 .product_overflow915 .product_longBox915 li{
+	width:200px;
+	height:150px;
+	float:left;
+	margin-right:50px;
+	padding:0px;
+}
+/* 产品分类:左右三角部分 */
+.slider-page a{
+	display:none;
+	position:absolute;
+	top:50%;
+	margin-top:-43px;
+	width:49px;
+	height:85px;
+	line-height:85px;
+	text-align:center;
+	background:rgba(0,0,0,0.3);
+	border-radius:6px;
+}
+.slider-page a.slider-pre{
+	left:5px;
+}
+.slider-page a.slider-next{
+	right:5px;
+}
+.slider-page a img{
+	vertical-align:middle;
+}
+/* 难易程度及烹饪时间 */
+.recipe_step915 ul li{
+	box-sizing:border-box;
+	padding-left:74px;
+	height:44px;
+	line-height:44px;
+	border-top:1px solid #f0f0f0;
+}
+.recipe_step915 ul li span,.recipe_step915 ul li a{
+	display:inline-block;
+	margin-right:34px;
+	font-size:14px;
+	color:#737373;
+}
+.recipe_step915 ul li span{
+	font-weight:bold;
+}
+/* 食谱菜单 */
+.recipe_menu915{
+	width:100%;
+	height:1384px;
+}
+.recipe_menu915 .clearfix{
+	zoom:1;
+}
+.recipe_menu915 .recipe_items915{
+	float:left;
+	box-sizing:border-box;
+	padding-bottom:23px;
+	border-right:1px solid #f0f0f0;
+	border-bottom:1px solid #f0f0f0;
+	width:33.33333333333333333%;
+}
+.recipe_menu915 .recipe_items915 .recipe_menuPic915{
+	display:block;
+	width:100%;
+}
+.recipe_menu915 .recipe_items915 .recipe_menuPic915 img{
+	height:218px;
+}
+/* 图片下相关信息 */
+.recipe_menu915 .recipe_items915 .recipe_box_inner915{
+	box-sizing:border-box;
+	padding:20px 20px 0;
+	position:relative;
+}
+/* 图片下相关信息:用时 */
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .recipe-minClock915{
+	position:absolute;
+	top:-24px;
+	right:20px;
+}
+/* 图片下相关信息:用时钟表设置 */
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .recipe-minClock915 i{
+	margin-left:5px;
+}
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .recipe-minClock915 .icon-clock{
+	display:inline-block;
+	background-image:url("../img/recipe/icons.png-v1.3.png");
+	background-position:-257px -197px;
+	width:48px;
+	height:48px;
+}
+/* 图片下相关信息:标题 */
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .recipe_title915{
+	width:210px;
+	height:40px;
+	color:#737373;
+	font-family:Arial,'Microsoft YaHei';
+}
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .recipe_title915 a{
+	color:#737373;
+	font-size:14px;
+}
+/* 图片下相关信息:难易程度 */
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .diff-level915{
+	margin:12px 0 0 0;
+}
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .diff-level915 .ease-level915{
+	margin-bottom:10px;
+}
+/*难易程度四个字修饰  */
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .diff-level915 .ease-level915 span{
+	width:61px;
+	font-size:15px;
+	overflow:hidden;
+	white-space:nowrap;/*定义段落中文本:不进行换行*/
+	text-overflow:ellipsis;/*定义文本溢出:省略*/
+	color:#737373;
+}
+.recipe_menu915 .recipe_items915 .recipe_box_inner915 .diff-level915 .ease-level915 span:first-child{
+	font-weight:bold;
+}
+/* 难易程度中间的长条：整体(diff-level915) */
+.diff-level915{
+	margin:12px 0 0 0;
+}
+.diff-level915 .ease-leve1915{
+	margin-bottom:10px;
+}
+.diff-level915 span:first-child{
+	font-weight:bold;
+}
+.diff-level915 span{
+	display:inline-block;
+	width:61px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color:#737373;
+}
+.diff-level915 .ease-leve1915 p{
+	width:50%;
+	position:relative;
+	margin:0 5px;
+}
+.diff-level915 p{
+	display:inline-block;
+}
+/* 长条中的span */
+.diff-level915 .ease-leve1915 p span:first-child{
+	width:100%;
+	background:#e2e6e4;
+	z-index:2;
+	height:15px;
+	border-radius:8px;
+
+}
+.diff-level915 .ease-leve1915 p span.top-items915{
+	background:#009c4c;
+	z-index:3;
+	height:15px;
+	border-radius:8px;
+	position:absolute;
+	top:0px;
+}
+.diff-level915 .ease-leve1915>span{
+	font-size:14px;
+}
+
+/* 分页设置 */
+.pagination{
+	box-sizing:border-box;
+	width:100%;
+	height:65px;
+	margin-top:10px;
+	padding:4px 63px 0 0;
+	background:#fff;
+}
+.pagination .m-paging{
+	padding:10px 0;
+	vertical-align:top;
+}
+/* 分页设置:前后页箭头 */
+.m-paging .pre-page,.m-paging .next-page{
+	padding:8px 7px 7px 4px;
+	background:#e2e6e4;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:3px;
+}
+.m-paging .next-page{
+	margin-left:3px;
+}
+.m-paging .pre-page .icon-pre-white{
+	display:block;
+	background:url(../img/recipe/icons.png-v1.3.png);
+	background-position:-60px -389px;
+	width:15px;
+	height:25px;
+}
+.m-paging .next-page .icon-next-white{
+	display:block;
+	width:14px;
+	height:25px;
+	background:url(../img/recipe/icons.png-v1.3.png);
+	background-position:-85px -389px;
+}
+/* 分页设置:中间页数 */
+.m-paging>a{
+	float:left;
+	margin:0 3px;
+	display:block;
+	border:1px solid #c7e9d6;
+	height:22px;
+	line-height:22px;
+	font-size:14px;
+	padding:8px;
+}
+.m-paging>a.current{
+	background:#e2e6e4;
+	color:#fff;
+}
+
+/* 跳转页 */
+.m-paging .m-skip{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:20px;
+	font-size:14px;
+}
+.m-paging .m-skip input{
+	width:20px;
+	height:34px;	
+	padding-left:1px;
+	padding-right:1px;
+	text-align:center;
+	border:1px solid #c7e9d6;
+}
+.m-paging .m-skip .skip{
+	display:inline-block;
+	margin-left:3px;
+	text-decoration:underline;
+	color:#8d8d8d;
+}
+
+
+/*导航吸顶*/
+.fixed{
+	position:fixed !important;
+	width:100% !important;
+	background:#fff !important;
+	z-index:10000;
+	top:0px;
+}
+.chazhao{
+	position:relative;
+	top:-90px;
+	left:350px;
+}
+.sear-add .gwc_add .gouwuche{
+	bottom:70px !important;
+}
+
+.sear_add2,.sear-add{
+	height:0px !important;
+}
+.sear_add2{
+	/*display:none;*/
+}
