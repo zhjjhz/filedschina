@@ -1,0 +1,268 @@
+/*中间部分内容*/
+.container-2{
+    width:1200px;
+    margin:0 auto;
+    box-shadow:0 0 5px rgba(141,141,141,0.5);
+}
+.container-2>.main-w1200{
+    width:100%;
+    background:#fff;
+}
+/*图片，购物车，结算中心，及下单成功：图片*/
+.container-2>.main-w1200>.steps img{
+    display:inline-block;
+    margin-left:60px;
+    margin-top:40px;
+}
+.container-2>.main-w1200>.steps>.progress{
+    position:relative;
+    border-top:1px solid #e2e6e4;
+    width:55%;
+    right:-540px;
+    top:-50px;
+}
+/*图片，购物车，结算中心，及下单成功：购物车，结算中心，及下单成功*/
+.container-2>.main-w1200>.steps>.progress>.progress-item{
+    position:absolute;
+    right:15px;
+    top:-20px;
+}
+.container-2>.main-w1200>.steps>.progress>.progress-item li{
+    display:inline-block;
+    text-align:center;
+    margin-right:130px;
+}
+.container-2>.main-w1200>.steps>.progress>.progress-item li .circle-green,
+.container-2>.main-w1200>.steps>.progress>.progress-item li .circle-normal{
+    display:inline-block;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    border-radius:50%;
+    border:1px solid #e4f1ea;
+}
+.container-2>.main-w1200>.steps>.progress>.progress-item li .circle-green{
+    background:#009c4c;
+    color:#fff;
+}
+.container-2>.main-w1200>.steps>.progress>.progress-item li .circle-normal{
+    background:#f0f0f0;
+}
+.container-2>.main-w1200>.steps>.progress>.progress-item li .content{
+    display:block;
+    margin-top:10px;
+    font-size:14px;
+}
+/*购物车主体内容:标题行*/
+.container-2>.main-w1200>.shopping_cart{
+    border-bottom:1px solid #e2e6e4;
+    margin-top:10px;
+    margin-bottom:50px;
+
+}
+.container-2>.main-w1200>.shopping_cart>.tiltle{
+    margin-bottom:10px;
+}
+.container-2>.main-w1200>.shopping_cart>.tiltle b{
+    color:#009c4c;
+    font-size:16px;
+    margin-left:80px;
+}
+.container-2>.main-w1200>.shopping_cart>.tiltle p{
+    position:relative;
+    right:90px;
+    float:right;
+}
+/*已选商品及购物车总价*/
+.container-2>.main-w1200>.shopping_cart>.tiltle p .total{
+    font-size:14px;
+    padding:0 3px;
+    font-weight:bold;
+}
+.container-2>.main-w1200>.shopping_cart>.tiltle p .color{
+    color:#009c4c;
+}
+.container-2>.main-w1200>.shopping_cart>.tiltle p .totalPrices{
+    padding-left:8px;
+    font-size:16px;
+    font-weight:bold;
+}
+/*2.1.1内容标题头:商品，单价，数量，金额*/
+.container-2>.main-w1200>.shopping_cart .box {
+    border-top: 1px solid #e2e6e4;
+    /*height: 45px;*/
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box {
+    margin-left:80px;
+
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .infor-top{
+    margin-top:15px;
+
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .infor-top .all{
+    display:inline-block;
+    margin-left:5px;
+    font-size:14px;
+    font-weight:bold;
+}
+.product-top,.price-top,.num-top,.total-top,.del-top{
+    float:right;
+    width:150px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/*商品内容模板*/
+.container-2>.main-w1200>.shopping_cart .box .content-box .info{
+    margin-top:15px;
+    /*border:1px solid #e8e8e8;*/
+    display:flex;
+    margin-right:50px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .product,.check, .price,.num,.total-price,.del{
+    display:inline-block;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .check{
+    position:relative;
+    bottom:-43px;
+    left:30px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .product{
+    width:465px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .product a{
+    display:inline-block;
+    margin-left:30px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .product .des{
+    position:relative;
+    bottom: 45px;
+    left:150px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .product .col{
+    position:relative;
+    bottom: 38px;
+    left:313px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .price{
+    width:160px;
+    margin-left:-23px;
+    text-align:center;
+    line-height:123px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .num span,
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .num input{
+    float:left;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .num{
+    width:160px;
+    margin-top:50px;
+    margin-left:30px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .num span{
+    display:inline-block;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    border:1px solid #bbb;
+    text-align:center;
+    /*background:#e8e8e8;*/
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .num input{
+    /*border-left:none;*/
+    /*border-right:none;*/
+    width:30px;
+    height:20px;
+    line-height:21px;
+    text-align:center;
+    margin-left:5px;
+    margin-right:5px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .total-price{
+    width:140px;
+    margin-left:15px;
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .total-price span{
+    display:inline-block;
+    margin-top:55px;
+
+}
+.container-2>.main-w1200>.shopping_cart .box .content-box .info .del{
+    margin-top:55px;
+    margin-left:15px;
+}
+/*计算*/
+.container-2>.main-w1200>.shopping_cart .box .foot .base,
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price{
+    display:inline-block;
+    font-size:14px;
+}
+
+/*计算:全选*/
+.container-2>.main-w1200>.shopping_cart .box .foot{
+    margin-left:80px;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .base{
+    position:relative;
+    bottom:20px;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .base .all{
+    display:inline-block;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .base .all span{
+    margin-right:5px;
+}
+/*计算:删除*/
+.container-2>.main-w1200>.shopping_cart .box .foot .base a{
+    display:inline-block;
+    margin-left:10px;
+}
+/*计算:清除失效产品*/
+.container-2>.main-w1200>.shopping_cart .box .foot .base .foot-qk{
+    display:inline-block;
+    color:#009c4e;
+    width:130px;
+    text-align:center;
+    border-radius:3px;
+    cursor:pointer;
+}
+/*计算:去结算与合计*/
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-selected,
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-cash,
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-tol{
+    float:right;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-tol{
+    margin:0 30px;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-selected,
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-tol{
+    margin-top:15px;
+}
+
+/*计算:去结算*/
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price{
+    margin-left:345px;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-tol .foot-price,
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-selected .totalOne{
+    color:#009c4e;
+    font-weight:bold;
+    font-size:16px;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-selected .totalOne{
+    display: inline-block;
+    margin-right:5px;
+}
+.container-2>.main-w1200>.shopping_cart .box .foot .go-price .foot-cash{
+    width:150px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:#009c4e;
+    color:#fff;
+    cursor:pointer;
+}
+
+
